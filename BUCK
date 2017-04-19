@@ -19,10 +19,3 @@ cxx_library(
   ],
   deps = BUCKAROO_DEPS,
 )
-
-
-cxx_binary(
-  name="main",
-  deps=[":restbed"],
-  srcs=["main.cpp"]
-)
